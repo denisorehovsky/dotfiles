@@ -20,7 +20,7 @@
     ;; -----------------------------------
     :tools/git
     :tools/linter
-	  ;; :tools/bookmarks
+    ;; :tools/bookmarks
     ;; :tools/build
     ;; :tools/minimap
 
@@ -59,7 +59,7 @@
   [
     ;; :pigments
     :atom-pair
-	  :magicpython
+    :magicpython
   ]
 
   ;; Packages that you want to disable.
@@ -70,8 +70,8 @@
     ;; :autoupdate-packages
     ;; :about
     ;; :welcome
-	  :environment
-	  :file-icons
+    :environment
+    :file-icons
   ]
   ;; Proton takes over your atom configuration. All settings that are not listed here will get wiped
   ;; Configurations are denoted as 2 element vector consisting of k/v
@@ -90,9 +90,9 @@
     ;; proton configuration
     ["proton.core.showTabBar" true]
     ["proton.core.relativeLineNumbers" false]
-
-	;; Prefer to skip the welcome screen if there is nothing important being shown
-	["proton.core.alwaysShowWelcomeScreen" false]
+    
+    ;; Prefer to skip the welcome screen if there is nothing important being shown
+    ["proton.core.alwaysShowWelcomeScreen" false]
 
     ;; prefer classic vim mode over vim-mode-plus? Change this to :vim-mode
     ["proton.core.inputProvider" :vim-mode-plus]
