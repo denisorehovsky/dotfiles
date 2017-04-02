@@ -97,7 +97,7 @@
     ;; prefer classic vim mode over vim-mode-plus? Change this to :vim-mode
     ["proton.core.inputProvider" :vim-mode-plus]
 
-	["linter-flake8.ignoreErrorCodes" ["D100", "D101", "D102", "D105", "D200"]]
+    ["linter-flake8.ignoreErrorCodes" ["D100", "D101", "D102", "D105", "D200"]]
   ]
 
   ;; Don't like a keybinding or want to add something yourself? Do it here
