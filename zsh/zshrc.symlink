@@ -9,12 +9,8 @@ export DOTFILES=$dotfiles
 
 # zsh settings
 ZSH_THEME="gnzh"
-plugins=(git jump z)
+plugins=(git jump virtualenvwrapper z)
 
 
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
-
-
-# load virtualenvwrapper
-source /usr/bin/virtualenvwrapper.sh
