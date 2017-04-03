@@ -1,6 +1,6 @@
 [user]
-	name = Denis Orehovsky
-	email = denis.orehovsky@gmail.com
+  name = Denis Orehovsky
+  email = denis.orehovsky@gmail.com
 [alias]
   co = checkout
   ci = commit
