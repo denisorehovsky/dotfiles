@@ -1,12 +1,20 @@
+#!/bin/zsh
+
 # paths and variables
 export ZSH=$HOME/.oh-my-zsh
+
+export dotfiles=$HOME/.dotfiles
+export DOTFILES=$dotfiles
+
 
 # zsh settings
 ZSH_THEME="gnzh"
 plugins=(git jump z)
 
+
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
+
 
 # load virtualenvwrapper
 source /usr/bin/virtualenvwrapper.sh
