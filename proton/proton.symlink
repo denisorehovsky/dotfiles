@@ -60,6 +60,7 @@
     ;; :pigments
     :atom-pair
     :magicpython
+	  :ariake-dark-syntax
   ]
 
   ;; Packages that you want to disable.
@@ -71,7 +72,6 @@
     ;; :about
     ;; :welcome
     :environment
-    :file-icons
   ]
   ;; Proton takes over your atom configuration. All settings that are not listed here will get wiped
   ;; Configurations are denoted as 2 element vector consisting of k/v
@@ -79,18 +79,20 @@
   :configuration
   [
     ;; appearance
-    ["editor.fontFamily" "Iosevka"]
+    ["editor.fontFamily" "Fira Mono"]
+    ["editor.fontSize" 20]
 
     ;; the current default theme
     ;; ["core.themes" ["nucleus-dark-ui" "atom-dark-fusion-syntax"]]
     ;; here are some more popular theme ideas for you to pick from:
     ;; ["core.themes" ["atom-material-ui" "atom-material-syntax"]]
-    ["core.themes" ["one-dark-ui" "one-dark-syntax"]]
+    ;; ["core.themes" ["one-dark-ui" "one-dark-syntax"]]
+    ["core.themes" ["one-dark-ui" "ariake-dark-syntax"]]
 
     ;; proton configuration
     ["proton.core.showTabBar" true]
     ["proton.core.relativeLineNumbers" false]
-    
+
     ;; Prefer to skip the welcome screen if there is nothing important being shown
     ["proton.core.alwaysShowWelcomeScreen" false]
 
