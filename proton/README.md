@@ -9,8 +9,8 @@ Proton
 # Install `proton`
 apm install proton-mode
 
-# Install `Iosevka` font (arch linux)
-yaourt ttf-iosevka
+# Install `Fira Mono` font (arch linux)
+yaourt fira-mono
 
 # Symlink `.proton`
 ln -s ~/.dotfiles/proton/proton.symlink ~/.proton
