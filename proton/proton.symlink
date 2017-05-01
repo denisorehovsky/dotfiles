@@ -80,7 +80,7 @@
   [
     ;; appearance
     ["editor.fontFamily" "Fira Mono"]
-    ["editor.fontSize" 20]
+    ["editor.fontSize" 16]
 
     ;; the current default theme
     ;; ["core.themes" ["nucleus-dark-ui" "atom-dark-fusion-syntax"]]
