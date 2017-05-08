@@ -9,7 +9,7 @@ export DOTFILES=$dotfiles
 
 # zsh settings
 ZSH_THEME="gnzh"
-plugins=(git jump virtualenvwrapper z)
+plugins=(git jump virtualenvwrapper zsh-autosuggestions z)
 
 
 # load oh-my-zsh
