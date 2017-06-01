@@ -61,6 +61,7 @@
     :atom-pair
     :magicpython
 	  :ariake-dark-syntax
+    :language-vue
   ]
 
   ;; Packages that you want to disable.
