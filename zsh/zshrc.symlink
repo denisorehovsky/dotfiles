@@ -7,6 +7,10 @@ export dotfiles=$HOME/.dotfiles
 export DOTFILES=$dotfiles
 
 
+# add ruby gem to the PATH
+PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
+
+
 # zsh settings
 ZSH_THEME="gnzh"
 plugins=(git jump virtualenvwrapper zsh-autosuggestions zsh-syntax-highlighting z)
