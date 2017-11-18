@@ -32,6 +32,7 @@
     ;; :lang/clojure
     ;; :lang/csharp
     :lang/python
+    ;; :lang/elm
     ;; :lang/julia
     ;; :lang/latex
     ;; :lang/elixir
@@ -59,7 +60,7 @@
   :additional-packages
   [
     ;; :pigments
-    :atom-pair
+    :teletype
     :magicpython
 	  :ariake-dark-syntax
     :language-vue
