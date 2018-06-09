@@ -64,6 +64,7 @@
     :magicpython
 	  :ariake-dark-syntax
     :language-vue
+    :python-black
   ]
 
   ;; Packages that you want to disable.
