@@ -62,9 +62,11 @@
     ;; :pigments
     :teletype
     :magicpython
-	  :ariake-dark-syntax
+    :ariake-dark-syntax
     :language-vue
+    :atom-typescript
     :python-black
+    :goto-definition
   ]
 
   ;; Packages that you want to disable.
