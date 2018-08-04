@@ -9,5 +9,5 @@
 There is no script/installer that sets up everything for you. You should clone my dotfiles and go through each section and file and keep only those you find important or useful.
 
 ```bash
-git clone https://github.com/apirobot/dotfiles ~/.dotfiles
+git clone --recurse-submodules https://github.com/apirobot/dotfiles ~/.dotfiles
 ```
