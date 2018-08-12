@@ -30,7 +30,7 @@
     "**/*.py[co]": true
   },
   "python.formatting.provider": "none",
-  "python.linting.enabled": false,
+  "python.pythonPath": "${workspaceFolder}/.venv/bin/python3",
   "python.terminal.activateEnvironment": true,
   "python.workspaceSymbols.enabled": true,
   "telemetry.enableCrashReporter": false,
