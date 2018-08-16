@@ -32,6 +32,8 @@
   "python.formatting.provider": "none",
   "python.pythonPath": "${workspaceFolder}/.venv/bin/python3",
   "python.terminal.activateEnvironment": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
   "python.workspaceSymbols.enabled": true,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
