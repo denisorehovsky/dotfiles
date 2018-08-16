@@ -53,4 +53,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.feedback.visible": false,
   "workbench.tips.enabled": false,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
 }
