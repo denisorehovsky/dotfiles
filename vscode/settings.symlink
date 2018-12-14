@@ -17,7 +17,7 @@
     ".babelrc": "jsonc",
     ".eslintrc": "jsonc"
   },
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "off",
   "files.exclude": {
     "**/.DS_Store": true,
     "**/__pycache__": true,
