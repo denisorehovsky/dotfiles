@@ -34,7 +34,6 @@
   "python.terminal.activateEnvironment": true,
   "python.linting.pylintEnabled": false,
   "python.linting.flake8Enabled": true,
-  "python.linting.mypyEnabled": true,
   "python.workspaceSymbols.enabled": true,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
