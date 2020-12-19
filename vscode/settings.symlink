@@ -29,7 +29,7 @@
     "**/.coverage": true,
     "**/*.py[co]": true
   },
-  "python.formatting.provider": "none",
+  "python.formatting.provider": "black",
   "python.pythonPath": "${workspaceFolder}/.venv/bin/python3",
   "python.terminal.activateEnvironment": true,
   "python.linting.pylintEnabled": false,
@@ -43,7 +43,6 @@
   "vetur.validation.template": false,
   "window.clickThroughInactive": false,
   "window.newWindowDimensions": "maximized",
-  "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
     "gitDecoration.modifiedResourceForeground": "#d4cb68"
   },
@@ -55,5 +54,28 @@
   "workbench.tips.enabled": false,
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "cSpell.userWords": [
+    "basepattern",
+    "click",
+    "clientside",
+    "handle",
+    "signup",
+    "timeleft",
+    "timelimit",
+    "unmerge"
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 }

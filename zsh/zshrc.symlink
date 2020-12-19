@@ -17,8 +17,18 @@ export NVM_DIR="$HOME/.nvm"
 PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 
 
-# go workspace
-GOPATH=$HOME/go 
+# pyenv
+export PATH=$HOME/.pyenv/bin:$PATH
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+
+# npm
+PATH=~/.npm-global/bin:$PATH
+
+
+# poetry
+export PATH=$HOME/.poetry/bin:$PATH
 
 
 # zsh settings
