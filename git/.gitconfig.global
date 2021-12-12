@@ -1,6 +1,6 @@
 [user]
-  name = Denis Orehovsky
-  email = denis.orehovsky@gmail.com
+	name = Denis Orehovsky
+	email = denis.orehovsky@gmail.com
 [alias]
   # Staging
   a = add
@@ -30,10 +30,12 @@
   # Pull
   pl = pull
   plom = pull origin master
+  plum = pull upstream master
 
   # Push
   ps = push
   psom = push origin master
+  psum = push upstream master
 
   # Status/Logging
   s = status
