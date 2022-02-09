@@ -33,7 +33,7 @@ export PATH=$HOME/.poetry/bin:$PATH
 
 # zsh settings
 ZSH_THEME="gnzh"
-plugins=(git jump virtualenvwrapper zsh-autosuggestions zsh-syntax-highlighting z)
+plugins=(git jump zsh-autosuggestions zsh-syntax-highlighting z)
 
 
 # load oh-my-zsh
