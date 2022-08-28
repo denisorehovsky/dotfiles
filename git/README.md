@@ -5,10 +5,10 @@ Git
 
 ### Installation
 
-Make sure to install the latest git release (arch linux):
+Make sure to install the latest git release:
 
 ```bash
-$ pacman -S git
+$ brew install git
 ```
 
 ### Configuration
