@@ -8,7 +8,7 @@ VSCode
 sh ~/.dotfiles/vscode/install.sh
 
 # Symlink settings
-ln -s ~/.dotfiles/vscode/settings.symlink ~/.config/Code/User/settings.json
+ln -s ~/.dotfiles/vscode/settings.symlink ~/Library/Application\ Support/Code/User/settings.json
 
 ```
 
