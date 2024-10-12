@@ -7,28 +7,38 @@ export dotfiles=$HOME/.dotfiles
 export DOTFILES=$dotfiles
 
 
+# locale
+export LC_CTYPE="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
+export LANG="en_US.UTF-8"
+
+
 # nvm
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 
 # add ruby gem to the PATH
-PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
+# PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 
 
 # pyenv
-export PATH=$HOME/.pyenv/bin:$PATH
+# export PATH=$HOME/.pyenv/bin:$PATH
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 
 # npm
-PATH=~/.npm-global/bin:$PATH
+# PATH=~/.npm-global/bin:$PATH
 
 
 # poetry
-export PATH=$HOME/.poetry/bin:$PATH
+export PATH="$HOME/.local/bin:$PATH"
+
+
+# kamal
+alias kamal='docker run -it --rm -v "${PWD}:/workdir" -v "/run/host-services/ssh-auth.sock:/run/host-services/ssh-auth.sock" -e SSH_AUTH_SOCK="/run/host-services/ssh-auth.sock" -v /var/run/docker.sock:/var/run/docker.sock ghcr.io/basecamp/kamal:latest'
 
 
 # zsh settings
