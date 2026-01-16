@@ -106,5 +106,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "remote.autoForwardPortsSource": "hybrid",
-  "github.copilot.nextEditSuggestions.enabled": true
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.mcp.gallery.enabled": true
 }
